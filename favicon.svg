@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <style>
+    .bg { fill: #13212a; } .m { stroke: #f3f5f6; } .h { stroke: #f2a93b; }
+    
+  </style>
+  <rect class="bg" x="1" y="1" width="30" height="30" rx="7"/>
+  <path class="m" d="M6 22V10l4 6.5L14 10v12" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="h" d="M18.5 10v12M18.5 16h7M25.5 10v12" fill="none" stroke-width="2.4" stroke-linecap="round"/>
+</svg>

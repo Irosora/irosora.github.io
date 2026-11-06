@@ -1,4 +1,388 @@
-<!doctype html><html><head><meta charset="utf-8"><title>Workbench Personal</title></head>
-<body><h1>Workbench Personal</h1>
-<p>A personal productivity tool used only by its owner. It is not offered to the public.</p>
-<p><a href="privacy.html">Privacy Policy</a></p></body></html>
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Max Ham | Lead Machine Learning Engineer, Toronto</title>
+<meta name="description" content="Max Ham is a Lead Machine Learning Engineer in Toronto who makes enterprise AI production-ready: LLM gateways, GPU model serving, agentic AI platforms, and Tier-1 reliability.">
+<meta name="author" content="Max Ham">
+<link rel="canonical" href="https://irosora.github.io/">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f3f5f6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0c161c" media="(prefers-color-scheme: dark)">
+
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="Max Ham">
+<meta property="og:locale" content="en_CA">
+<meta property="og:url" content="https://irosora.github.io/">
+<meta property="og:title" content="Max Ham | Lead Machine Learning Engineer">
+<meta property="og:description" content="I make enterprise AI production-ready: LLM gateways, GPU model serving, agentic AI platforms, and Tier-1 reliability.">
+<meta property="og:image" content="https://irosora.github.io/og-image.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Max Ham, Lead Machine Learning Engineer, Toronto. I make enterprise AI production-ready.">
+<meta property="profile:first_name" content="Max">
+<meta property="profile:last_name" content="Ham">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Max Ham | Lead Machine Learning Engineer">
+<meta name="twitter:description" content="I make enterprise AI production-ready: LLM gateways, GPU model serving, agentic AI platforms, and Tier-1 reliability.">
+<meta name="twitter:image" content="https://irosora.github.io/og-image.png">
+<meta name="twitter:image:alt" content="Max Ham, Lead Machine Learning Engineer, Toronto. I make enterprise AI production-ready.">
+
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&family=IBM+Plex+Mono:wght@500;600;700&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<link rel="stylesheet" href="/styles.css">
+<script>
+  // Apply a saved theme before first paint so the page never flashes the wrong colours.
+  (function () {
+    try {
+      var t = localStorage.getItem("theme");
+      if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+    } catch (e) {}
+  })();
+</script>
+<script src="/script.js" defer></script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Max Ham",
+  "jobTitle": "Lead Machine Learning Engineer",
+  "email": "mailto:sowonhamm@gmail.com",
+  "url": "https://irosora.github.io/",
+  "image": "https://irosora.github.io/og-image.png",
+  "sameAs": ["https://www.linkedin.com/in/sowonham/"],
+  "worksFor": { "@type": "Organization", "name": "Layer 6 AI" },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Toronto",
+    "addressRegion": "ON",
+    "addressCountry": "CA"
+  },
+  "knowsAbout": [
+    "Machine learning platforms",
+    "LLM gateways",
+    "Model serving",
+    "NVIDIA Triton Inference Server",
+    "Model Context Protocol",
+    "Retrieval-augmented generation",
+    "Agentic AI",
+    "Kubernetes",
+    "Microsoft Azure",
+    "Databricks",
+    "Disaster recovery",
+    "Observability"
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top" aria-label="Max Ham, back to top">
+      <svg class="brand-mark" viewBox="0 0 32 32" width="30" height="30" aria-hidden="true" focusable="false">
+        <rect x="1" y="1" width="30" height="30" rx="7" fill="#13212a" stroke="#2a3c47"/>
+        <path d="M6 22V10l4 6.5L14 10v12" fill="none" stroke="#f3f5f6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M18.5 10v12M18.5 16h7M25.5 10v12" fill="none" stroke="#f2a93b" stroke-width="2.2" stroke-linecap="round"/>
+      </svg>
+      <span>Max Ham</span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="#value">Value</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#approach">Approach</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-tools">
+      <button class="theme-toggle" type="button" aria-label="Switch to dark theme" hidden>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+      <a class="btn btn-primary btn-sm" href="/Max_Ham_Resume.pdf" download="Max_Ham_Resume.pdf">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Resume<span class="visually-hidden"> (PDF download)</span></span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+  <div id="top" class="wrap hero">
+    <div class="hero-copy">
+      <p class="label status"><span class="status-dot" aria-hidden="true"></span>Lead Machine Learning Engineer &middot; Toronto</p>
+      <h1>I make enterprise AI <em>production-ready.</em></h1>
+      <p class="lede">LLM gateways, GPU model serving, and agentic AI platforms, built with the <strong>reliability, identity, and observability</strong> that let them carry real workloads. I lead the engineers who build them, across teams.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="/Max_Ham_Resume.pdf" download="Max_Ham_Resume.pdf">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Download resume <span class="meta">PDF</span>
+        </a>
+        <a class="btn btn-secondary" href="mailto:sowonhamm@gmail.com">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5.5" width="18" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          Email me
+        </a>
+      </div>
+    </div>
+
+    <figure class="hero-visual diagram-frame">
+      <div class="diagram-head" aria-hidden="true"><span>fig. 01 / request path</span><span>gateway &rarr; models</span></div>
+      <svg class="diagram" viewBox="0 0 480 360" width="480" height="360" role="img" aria-labelledby="diagram-title diagram-desc">
+        <title id="diagram-title">How an enterprise LLM gateway routes a request</title>
+        <desc id="diagram-desc">Apps and agents send requests to an LLM gateway. The gateway authenticates, authorizes, rate limits, and counts token usage, then routes each request to OpenAI, Anthropic, or a self-hosted model served on NVIDIA Triton. The gateway emits telemetry for observability.</desc>
+
+        <path class="wire" d="M112 110 C142 110 138 180 168 180"/>
+        <path class="wire" d="M112 250 C142 250 138 180 168 180"/>
+        <path class="wire" d="M316 180 C344 180 340 64 368 64"/>
+        <path class="wire" d="M316 180 H368"/>
+        <path class="wire" d="M316 180 C344 180 340 296 368 296"/>
+        <path class="tele" d="M242 320 V344 H330"/>
+
+        <path class="pulse in-a" pathLength="100" d="M112 110 C142 110 138 180 168 180"/>
+        <path class="pulse in-b" pathLength="100" d="M112 250 C142 250 138 180 168 180"/>
+        <path class="pulse out-a" pathLength="100" d="M316 180 C344 180 340 64 368 64"/>
+        <path class="pulse out-b" pathLength="100" d="M316 180 H368"/>
+        <path class="pulse out-c" pathLength="100" d="M316 180 C344 180 340 296 368 296"/>
+
+        <rect class="node" x="8" y="82" width="104" height="56" rx="6"/>
+        <text x="60" y="115" text-anchor="middle">Apps</text>
+        <rect class="node" x="8" y="222" width="104" height="56" rx="6"/>
+        <text x="60" y="255" text-anchor="middle">Agents</text>
+
+        <rect class="gateway" x="168" y="40" width="148" height="280" rx="8"/>
+        <text class="t-title" x="242" y="78" text-anchor="middle">LLM gateway</text>
+        <line class="rule" x1="184" y1="96" x2="300" y2="96"/>
+        <rect class="check-box c1" x="186" y="121" width="10" height="10" rx="2"/>
+        <text class="t-check" x="206" y="131">authenticate</text>
+        <rect class="check-box c2" x="186" y="161" width="10" height="10" rx="2"/>
+        <text class="t-check" x="206" y="171">authorize</text>
+        <rect class="check-box c3" x="186" y="201" width="10" height="10" rx="2"/>
+        <text class="t-check" x="206" y="211">rate limit</text>
+        <rect class="check-box c4" x="186" y="241" width="10" height="10" rx="2"/>
+        <text class="t-check" x="206" y="251">count tokens</text>
+        <text class="t-soft" x="242" y="296" text-anchor="middle">route &#8594;</text>
+
+        <rect class="node" x="368" y="36" width="104" height="56" rx="6"/>
+        <text x="420" y="69" text-anchor="middle">OpenAI</text>
+        <rect class="node" x="368" y="152" width="104" height="56" rx="6"/>
+        <text x="420" y="185" text-anchor="middle">Anthropic</text>
+        <rect class="node" x="368" y="266" width="104" height="60" rx="6"/>
+        <text x="420" y="292" text-anchor="middle">Self-hosted</text>
+        <text class="t-soft" x="420" y="312" text-anchor="middle">on Triton</text>
+
+        <text class="t-soft" x="338" y="348">telemetry</text>
+      </svg>
+      <figcaption class="diagram-caption">The shape of the enterprise LLM gateway I architected at Layer 6 AI: one governed front door for commercial and self-hosted models.</figcaption>
+    </figure>
+  </div>
+
+  <section class="proof" aria-label="At a glance">
+    <div class="wrap">
+      <dl>
+        <div><dt>transactions a day on an event-driven AI/ML platform I designed and built</dt><dd>3M+</dd></div>
+        <div><dt>GenAI and ML models deployed and operated on Kubernetes</dt><dd>100+</dd></div>
+        <div><dt>in production use cases on a Tier-1 platform where I led active-active DR</dt><dd>$100M+</dd></div>
+        <div><dt>engineers led across two platforms</dt><dd>20+</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section id="value" class="wrap section" aria-labelledby="value-title">
+    <div class="section-head">
+      <p class="label"><span class="idx">01</span> / Value</p>
+      <h2 id="value-title">What I bring to a team</h2>
+      <p>Getting a model to answer a prompt is the easy part. Running AI like any other critical service, governed, observable, recoverable, and secure, is the hard part. That is where I work.</p>
+    </div>
+    <div class="value-grid">
+      <article class="value">
+        <p class="label">From pilots to platform</p>
+        <h3>Turn scattered AI pilots into a governed platform</h3>
+        <p>I build the shared layer every team needs and nobody wants to rebuild: <strong>one gateway</strong> for OpenAI, Anthropic, and self-hosted models, with authentication, authorization, rate limiting, and token-usage tracking built in, plus reusable serving and deployment patterns so new use cases start on rails.</p>
+      </article>
+      <article class="value">
+        <p class="label">Reliability</p>
+        <h3>Give AI the reliability of a Tier-1 system</h3>
+        <p>AI in production deserves the same discipline as any critical service. I have delivered <strong>active-active disaster recovery</strong> for a Tier-1 predictive platform, established GPU model serving on NVIDIA Triton, and set AI platform observability standards in Datadog and Dynatrace.</p>
+      </article>
+      <article class="value">
+        <p class="label">Security</p>
+        <h3>Make secure identity the default, not a retrofit</h3>
+        <p>I design workload and client identity end to end: <strong>OAuth 2.0, OIDC, federated credentials, managed identities, certificates, mTLS, and token exchange</strong> across Kubernetes and enterprise identity providers, with DevSecOps built into delivery.</p>
+      </article>
+      <article class="value">
+        <p class="label">Leadership</p>
+        <h3>Lead across teams, not just within one</h3>
+        <p>Platform work crosses org charts. I have led <strong>15+ engineers across network, architecture, and platform teams</strong> and a cross-functional team of 20+ across two platforms, while mentoring engineers and contributing to hiring.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="work" class="wrap section" aria-labelledby="work-title">
+    <div class="section-head">
+      <p class="label"><span class="idx">02</span> / Selected work</p>
+      <h2 id="work-title">Selected work</h2>
+      <p>Four systems, told as problem, approach, and outcome. The resume has the full record.</p>
+    </div>
+
+    <div class="cases">
+      <article class="case" aria-labelledby="case1-title">
+        <div class="case-meta">
+          <p class="case-num">Case 01</p>
+          <p class="case-org">Layer 6 AI</p>
+          <p class="case-figure"><span class="num">1 gateway</span><span class="cap">for OpenAI, Anthropic, and self-hosted models</span></p>
+        </div>
+        <div class="case-body">
+          <h3 id="case1-title">An enterprise LLM gateway</h3>
+          <p class="summary">A single, governed entry point for every model the enterprise uses, commercial or self-hosted.</p>
+          <dl class="pao">
+            <div><dt>Problem</dt><dd>Supporting OpenAI, Anthropic, and self-hosted models means access control, quotas, and usage tracking for each. Solved separately in every integration, that work multiplies.</dd></div>
+            <div><dt>Approach</dt><dd>I architected a gateway that centralizes authentication, authorization, rate limiting, and token-usage tracking on scalable API infrastructure, and paired it with production model serving on NVIDIA Triton with GPU-optimized containers.</dd></div>
+            <div><dt>Outcome</dt><dd>One front door for commercial and self-hosted models, with access and usage handled centrally and serving delivered through reusable deployment patterns.</dd></div>
+          </dl>
+          <ul class="stack" aria-label="Technologies">
+            <li>LLM gateway</li><li>NVIDIA Triton</li><li>GPU containers</li><li>API infrastructure</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="case" aria-labelledby="case2-title">
+        <div class="case-meta">
+          <p class="case-num">Case 02</p>
+          <p class="case-org">Layer 6 AI</p>
+          <p class="case-figure"><span class="num">35%</span><span class="cap">improvement in organizational workflow efficiency</span></p>
+        </div>
+        <div class="case-body">
+          <h3 id="case2-title">An MCP-based agentic AI platform</h3>
+          <p class="summary">Reusable building blocks that turn an enterprise AI strategy into working agents.</p>
+          <dl class="pao">
+            <div><dt>Problem</dt><dd>The enterprise AI strategy spanned knowledge discovery, codebase intelligence, workflow automation, data analysis, IT operations, and document intelligence. Building each from scratch would not scale.</dd></div>
+            <div><dt>Approach</dt><dd>I designed a reusable platform on the Model Context Protocol covering model and tool integration, orchestration, RAG, context engineering, reusable skills, and human-in-the-loop workflows.</dd></div>
+            <div><dt>Outcome</dt><dd>The strategy became concrete use cases across those six areas, improving organizational workflow efficiency by 35%.</dd></div>
+          </dl>
+          <ul class="stack" aria-label="Technologies">
+            <li>MCP</li><li>Agentic AI</li><li>RAG</li><li>Context engineering</li><li>Human-in-the-loop</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="case" aria-labelledby="case3-title">
+        <div class="case-meta">
+          <p class="case-num">Case 03</p>
+          <p class="case-org">Layer 6 AI</p>
+          <p class="case-figure"><span class="num">$100M+</span><span class="cap">in production use cases on the platform</span></p>
+        </div>
+        <div class="case-body">
+          <h3 id="case3-title">Active-active disaster recovery for a Tier-1 predictive platform</h3>
+          <p class="summary">Resilience for a predictive platform the business depends on.</p>
+          <dl class="pao">
+            <div><dt>Problem</dt><dd>A Tier-1 predictive platform supported more than $100M in production use cases. Recovery spanned network, architecture, and platform, so no single team could deliver it alone.</dd></div>
+            <div><dt>Approach</dt><dd>I led 15+ engineers across the network, architecture, and platform teams to deliver an active-active disaster recovery architecture, mentoring engineers and contributing to hiring along the way.</dd></div>
+            <div><dt>Outcome</dt><dd>Active-active disaster recovery for a Tier-1 platform carrying $100M+ in production use cases.</dd></div>
+          </dl>
+          <ul class="stack" aria-label="Disciplines">
+            <li>Disaster recovery</li><li>Active-active</li><li>Cross-team leadership</li><li>Tier-1 operations</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="case" aria-labelledby="case4-title">
+        <div class="case-meta">
+          <p class="case-num">Case 04</p>
+          <p class="case-org">CIBC</p>
+          <p class="case-figure"><span class="num">3M+</span><span class="cap">transactions a day</span></p>
+        </div>
+        <div class="case-body">
+          <h3 id="case4-title">An event-driven platform for AI and document processing</h3>
+          <p class="summary">The foundation for synchronous and asynchronous AI/ML workloads in a large bank.</p>
+          <dl class="pao">
+            <div><dt>Problem</dt><dd>AI/ML services and large-scale document processing across 300+ document types needed one platform for both synchronous and asynchronous workloads.</dd></div>
+            <div><dt>Approach</dt><dd>I designed and built a scalable event-driven platform, deployed and operated 100+ GenAI/ML models on Kubernetes, built GPU-enabled CUDA runtime images, and automated model deployment with an MLflow-based CI/CD pipeline in GitHub Actions.</dd></div>
+            <div><dt>Outcome</dt><dd>3M+ transactions a day, plus Databricks Apps human-in-the-loop workflows that contributed to over $15M in customer profit realization.</dd></div>
+          </dl>
+          <ul class="stack" aria-label="Technologies">
+            <li>Event-driven</li><li>Kubernetes</li><li>Azure</li><li>Databricks</li><li>MLflow</li><li>GitHub Actions</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="approach" class="wrap section" aria-labelledby="approach-title">
+    <div class="section-head">
+      <p class="label"><span class="idx">03</span> / Approach</p>
+      <h2 id="approach-title">How I work</h2>
+    </div>
+    <div class="principles">
+      <article class="principle">
+        <h3>Build the pattern, not the one-off</h3>
+        <p>Reusable inference, deployment, and pipeline patterns compound. Reusable petabyte-scale data pipelines I built for concurrent migrations generated $600K+ in revenue within three months.</p>
+      </article>
+      <article class="principle">
+        <h3>Observability is part of the build</h3>
+        <p>Dashboards, logging, and telemetry belong in the design, not in the post-incident review. I set them as standards, not as afterthoughts.</p>
+      </article>
+      <article class="principle">
+        <h3>Security by design</h3>
+        <p>Identity, secrets, and secure deployment are architecture decisions. DevSecOps belongs in the pipeline, not in a final sign-off.</p>
+      </article>
+      <article class="principle">
+        <h3>Grow the team around the platform</h3>
+        <p>Platforms last when people own them. I mentor engineers, contribute to hiring, and establish the CI/CD and DevSecOps practices a team works within.</p>
+      </article>
+    </div>
+
+    <div class="history">
+      <h2 class="label">Where I've worked</h2>
+      <ol>
+        <li><span class="org">Layer 6 AI</span><span class="role">Lead Machine Learning Engineer &middot; <span class="when">2026&ndash;present</span></span></li>
+        <li><span class="org">CIBC</span><span class="role">GenAI Platform Technology Lead &middot; <span class="when">2024&ndash;2026</span></span></li>
+        <li><span class="org">CIBC</span><span class="role">Senior Application Developer &middot; <span class="when">2024</span></span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="contact" class="wrap" aria-labelledby="contact-title">
+    <div class="cta">
+      <div class="cta-inner">
+        <p class="label"><span class="idx">04</span> / Contact</p>
+        <h2 id="contact-title">Need AI that holds up in production?</h2>
+        <p>The resume has the full record. If you are hiring for ML platform, AI infrastructure, or technical leadership, I would like to hear about it.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="/Max_Ham_Resume.pdf" download="Max_Ham_Resume.pdf">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Download resume <span class="meta">PDF</span>
+          </a>
+          <a class="btn btn-secondary" href="mailto:sowonhamm@gmail.com">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5.5" width="18" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+            Email me
+          </a>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/sowonham/" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            LinkedIn
+          </a>
+        </div>
+        <p class="email">sowonhamm@gmail.com</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>&copy; 2026 Max Ham &middot; Toronto, ON</p>
+    <p class="app-note">Workbench Personal &mdash; a personal productivity tool used only by its owner &middot; <a href="privacy.html">Privacy Policy</a></p>
+  </div>
+</footer>
+</body>
+</html>
